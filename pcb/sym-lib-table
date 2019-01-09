@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name modified_connector)(type Legacy)(uri C:/Users/chris/KiCadProjects/ears_redo/modified_connector.lib)(options "")(descr ""))
+  (lib (name symbols)(type Legacy)(uri ${KIPRJMOD}/UL_OPA1641AIDGKR/KiCAD/symbols.lib)(options "")(descr ""))
+)

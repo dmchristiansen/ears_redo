@@ -1,0 +1,44 @@
+(export (version D)
+  (design
+    (source C:\Users\chris\KiCadProjects\ears_redo\panel\ears_panel_v30.sch)
+    (date "1/4/2019 11:23:21 PM")
+    (tool "Eeschema (5.0.0)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source ears_panel_v30.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref R1)
+      (value R)
+      (footprint Resistors_SMD:R_0201)
+      (datasheet ~)
+      (libsource (lib Device) (part R) (description Resistor))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5C305967)))
+  (libparts
+    (libpart (lib Device) (part R)
+      (description Resistor)
+      (docs ~)
+      (footprints
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical Device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref R1) (pin 1)))
+    (net (code 2) (name +12V)
+      (node (ref R1) (pin 2)))))

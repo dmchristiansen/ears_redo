@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ears_panel_v30-eagle-import)(type Legacy)(uri ${KIPRJMOD}/ears_panel_v30-eagle-import.lib)(options "")(descr ""))
+)
